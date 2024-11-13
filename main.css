@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+}
+
+/* Left side */
+.container {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.left_side {
+    background-color: rgb(160, 151, 226);
+    padding: 0 0 0 100px;
+    width: 25%;
+    /* display: flex; */
+}
+
+.left_side img {
+    margin: 50px 50px 50px 0px;
+    width: 185px;
+    height: 185px;
+}
+
+.contacts {
+    color: white;
+    font-size: 35px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.phone_info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.phone_img {
+    background-image: url('./image/phone-img.jpg');
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+}
+
+.phone_number {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0 0 10px;
+}
+
+.e-mail_info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.e-mail_img {
+    background-image: url('./image/e-mail_img.png');
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+}
+
+.e-mail_name {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0 0 10px;
+}
+
+.adres_info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.adres_img {
+    background-image: url('./image/adress_img.png');
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+}
+
+.adres {
+    color: white;
+    font-size: 20px;
+    /* text-align: center; */
+    margin: 5px 0 0 10px;
+}
+
+.linkedin_info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.linkedin_img {
+    background-image: url('./image/linkedin_img.png');
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+}
+
+.linkedin_info a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0 0 10px;
+}
+
+.web_info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.web_img {
+    background-image: url('./image/web_img.jpg');
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+}
+
+.web_info a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0 0 10px;
+}
+
+.education {
+    color: white;
+    font-size: 35px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.education_info {
+    color: white;
+    font-size: 15px;
+}
+
+.skills {
+    color: white;
+    font-size: 35px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.skills ul {
+    margin: 15px 15px 15px -22px;
+}
+
+.skills li {
+    color: white;
+    font-size: 18px;
+}
+
+
+/* Right side */
+
+.right_side {
+    background-color: rgb(194, 211, 97);
+    padding: 0 100 0 0px;
+    width: 75%;
+    padding-bottom: 45px;
+}
+
+.name {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: white;
+    margin: 75px 0 0 120px;
+}
+
+.profesion {
+    font-size: 25px;
+    color: white;
+    margin: 27px 0 0 140px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_summary {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    margin: 155px 0 0 63px;
+}
+
+.description_profile_summary {
+    font-size: 19px;
+    color: white;
+    margin: 11px 0 0 63px;
+    width: 80%;
+}
+
+.work_expirience {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    margin: 50px 0 0 63px;
+    font-weight: bold;
+}
+
+.project_manager {
+    font-size: 15px;
+    color: white;
+    margin: 11px 0 0 63px;
+    text-transform: uppercase;
+}
+
+.right_side p {
+    font-size: 18px;
+    color: white;
+    margin: 11px 0 0 63px;
+}
+
+.work_expirience_description {
+    display: flex;
+    height: fit-content;
+    width: 80%;
+    margin-left: 11px;
+}
+
+.work_expirience_description li {
+    color: white;
+    font-size: 18px;
+}
+
+.work_expirience p {
+    font-size: 18px;
+    color: white;
+    margin: 11px 0 0 63px;
+}
+
+.work_expirience_description_2 {
+    display: flex;
+    height: fit-content;
+    width: 80%;
+    margin-left: 11px;
+}
+
+.work_expirience_description_2 li {
+    color: white;
+    font-size: 18px;
+}
+
+@media (max-width: 1100px) {
+    .left_side {
+        padding: 20px;
+        width: 35%;
+    }
+}
+
+@media (max-width:990px) {
+    .left_side {
+        width: 35%;
+        padding: 20px;
+    }
+}
+
+@media (max-width:810px) {
+    .adres {
+        margin: -1px 0 0 -1px;
+        padding: 5px;
+    }
+}
+@media(max-width:730px){
+    .name{
+        margin: 75px 0 0 85px;
+    }
+    .profile_summary{
+        margin:175px 0 0 63px ;
+    }
+}
+@media (max-width:640px) {
+    .name{
+        margin: 74px 0 0 43px;
+    }
+    .profesion{
+        margin:27px 0 0 73px ;
+    }
+    .profile_summary{
+        margin:180px 0 0 63px ;
+    }
+    
+}
+
+@media(max-width:600px){
+    .left_side{
+        width: 45%;
+        padding: 15px;
+    }
+    .name{
+        margin: 75px 0 0 100px;
+    }
+    .profesion{
+       margin: 26px 0 0 80px;  
+    }
+    .profile_summary{
+        margin: 127px 0 0 40px;
+    }
+    .description_profile_summary{
+        margin: 11px 0 0 40px;
+    }
+    .work_expirience{
+        margin: 50px 0 0 40px;
+    }
+    .project_manager{
+        margin: 11px 0 0 45px;
+    }
+    .right_side p{
+        margin: 11px 0 0 45px;
+    }
+    .adres{
+        margin: -1px 0 0 5px;
+    }
+}
+@media(max-width:580px){
+    .container{
+        flex-direction: column;
+    }
+    .left_side{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .skills{
+        margin-top: 20px;
+    }
+    .skills p{
+        margin-left: 45px;
+    }
+    .education{
+        margin-bottom: 7px;
+    }
+    .education_info{
+        margin: 0 0 0 -67px;
+    }
+    .profile_summary{
+        margin: 69px 0 0 40px ;
+    }
+    .profesion{
+        margin: 25px 0 0 160px;
+    }
+    .right_side{
+        width: 100%;
+    }
+    .left_side img{
+        margin: 50px 50px 50px 50px;
+    }
+}
+@media(max-width:410px) {
+    .profesion{
+        margin: 25px 0 0 80px;
+    }
+    .name{
+        margin:75px 0 0 40px ;
+    }
+}
+@media (max-width:332px){
+    .name{
+        margin:75px 0 0 95px ;
+    }
+}
